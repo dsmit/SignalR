@@ -5,7 +5,7 @@ using SignalR.Autofac;
 [assembly: WebActivator.PreApplicationStartMethod(typeof($rootnamespace$.App_Start.AutofacSignalR), "Start")]
 
 namespace $rootnamespace$.App_Start
-    {
+{
     public static class AutofacSignalR
     {
         /// <summary>
